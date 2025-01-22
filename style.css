@@ -225,6 +225,171 @@ p {
   height: 24px;
   color: white;
 }
+/* /story section/ */
+.story-section {
+  margin-top: 5rem;
+  background: linear-gradient(
+    0deg,
+    rgba(254, 161, 1, 0.13),
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  overflow: hidden;
+  padding: 10px;
+}
+.story-section h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+.story-contain {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.story-contain1 {
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  text-align: left;
+  padding: 30px 20px;
+  position: relative;
+}
+.story-contain1 button {
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  width: 13rem;
+  font-size: 20px;
+  position: absolute;
+  top: 56%;
+  left: 10%;
+}
+.story-contain1 h2 {
+  font-size: 23px;
+  margin-top: 2rem;
+}
+.story-contain1 p {
+  margin-top: 2rem;
+}
+.story-contain2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contain2 {
+  margin: 0px 20px;
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  padding: 30px 20px;
+  position: relative;
+}
+.contain2 button {
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  width: 13rem;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.title {
+  margin-top: 50px;
+}
+.contain3 {
+  margin: 0px 20px;
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  padding: 30px 20px;
+  position: relative;
+}
+.contain3 button {
+  background-color: royalblue;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  width: 13rem;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.contain4 {
+  margin: 20px 20px;
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  padding: 30px 20px;
+  position: relative;
+}
+.contain4 button {
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  width: 13rem;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.contain5 {
+  margin: 20px 20px;
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  padding: 30px 20px;
+  position: relative;
+}
+.contain5 button {
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  width: 13rem;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+/* Image styling */
+.story_img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .viewBtn{
+    background-color: black;
+    height: 50px;
+    width: 9rem;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    position: left;
+    margin-top: 50px;
+  }
 
 /* responsive part */
 @media screen and (max-width: 576px) {
@@ -267,32 +432,9 @@ p {
     align-items: center;
   }
   .banner {
-    text-align: left;
+    text-align: center;
   }
-  .banner h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  .span1 {
-    color: orange;
-  }
-  .span2 {
-    color: deepskyblue;
-  }
-  p {
-    color: grey;
-    margin-bottom: 30px;
-  }
-  .banner button {
-    background-color: black;
-    height: 50px;
-    width: 9rem;
-    color: white;
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    position: left;
-  }
+
   /* card section */
 
   .card-section {
@@ -303,7 +445,115 @@ p {
   .arrow-container {
     display: none;
   }
-  .card1{
-    margin-left: 0px;
+  /* /story section/ */
+
+  .story-contain1 {
+    display: none;
+  }
+
+
+ 
+  .story-contain2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contain2 {
+    margin: 0px 0px;
+    height: fit-content;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .contain2 button {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 8rem;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  .title {
+    margin-top: 50px;
+  }
+  .contain3 {
+    margin: 0px 0px;
+    margin-right: 10px;
+    height: fit-content;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .contain3 button {
+    background-color: royalblue;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 8rem;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  .contain4 {
+    margin: 0px 0px;
+    height: fit-content;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .contain4 button {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 10rem;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  .contain5 {
+    margin: 0px 0px;
+    height: fit-content;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .story_img {
+    width: 100%;
+  }
+  .contain5 button {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 8rem;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
   }
 }
