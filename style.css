@@ -60,24 +60,55 @@ header button {
   width: 30px;
   height: 30px;
 }
+/* Banner section */
+.bannerSection {
+  display: flex;
+  align-items: center;
+}
+.banner {
+  text-align: left;
+}
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.span1 {
+  color: orange;
+}
+.span2 {
+  color: deepskyblue;
+}
+p {
+  color: grey;
+  margin-bottom: 30px;
+}
+.banner button {
+  background-color: black;
+  height: 50px;
+  width: 9rem;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  position: left;
+}
+
 
 /* responsive part */
 @media screen and (max-width: 576px) {
-    .container {
-        margin: 0px 5px;
-      }
-      .contain{
-        margin-bottom: 10px;
-      }
+  .container {
+    margin: 0px 5px;
+  }
+  .contain {
+    margin-bottom: 10px;
+  }
   .contain h1 {
     display: none;
   }
   nav {
     display: none;
-    
   }
-  header{
-    
+  header {
     border-bottom: 1px solid rgb(254, 163, 1);
   }
 
@@ -87,4 +118,15 @@ header button {
   .menuIcon {
     display: block;
   }
+
+  /* Banner section */
+  .bannerSection {
+    flex-direction: column-reverse;
+  }
+  .banner {
+    text-align: center;
+  }
+ .img{
+   width: 80%;
+ }
 }
